@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Browser-Automation-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Browser-Automation-Platform?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Browser-Automation-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Browser-Automation-Platform?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Browser-Automation-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Browser-Automation-Platform?style=flat-square" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Browser-Automation-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -61,9 +61,9 @@ The table below lists top commercial SaaS platforms providing cloud browser infr
 
 Top open-source projects for self-hosting browser infrastructure, anti-detect automation, and AI agent web navigation frameworks.
 
-> **Sorted by GitHub Stars (Descending)**
+> **Sorted by GitHub_Stars (Descending)**
 
-| Repository 📦 | GitHub Stars ⭐ | Primary License 📜 | Description & Technical Highlights 💡 |
+| Repository 📦 | GitHub_Stars ⭐ | Primary License 📜 | Description & Technical Highlights 💡 |
 | :--- | :--- | :--- | :--- |
 | **[Browser Use](https://github.com/browser-use/browser-use)** | [<img src="https://img.shields.io/github/stars/browser-use/browser-use?style=social&color=white" alt="Browser Use Stars"/>](https://github.com/browser-use/browser-use/stargazers) | MIT | Autonomous AI agent web automation framework. Controls real browsers via LLMs, with CLI, Cursor, and Python integration. |
 | **[Puppeteer](https://github.com/puppeteer/puppeteer)** | [<img src="https://img.shields.io/github/stars/puppeteer/puppeteer?style=social&color=white" alt="Puppeteer Stars"/>](https://github.com/puppeteer/puppeteer/stargazers) | Apache-2.0 | Node.js library providing a high-level API over the Chrome DevTools Protocol (CDP) for headless browser control. |
@@ -131,3 +131,12 @@ Thank you for exploring and using this repository! If this curated platform dire
 <p align="center">
   <b>Built with ❤️ for AI Engineers, Automation Developers, QA Specialists, and Web Researchers.</b>
 </p>
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Browser-Automation-Platform&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Browser-Automation-Platform_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Browser-Automation-Platform_growth.svg">
+  </picture>
+</a>
