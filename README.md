@@ -1,235 +1,133 @@
-# Awesome-Browser-Automation-Platform
-
-## Top Browser Automation Platform Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Cloud Browser Infrastructure, AI Agent Execution & Anti-Detection*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Browser Automation**. These tools enable developers and AI agents to programmatically control browsers at scale — for web scraping, testing, form filling, and autonomous web tasks — while handling session management, fingerprinting, and anti-bot evasion.
-
-
-
-**Examples** include Browserbase, Browserless, Stagehand, Steel.dev, Multilogin, AdsPower, GoLogin, Kameleo, Octo Browser, and BrowserCat (the category leaders).
-
-
-
-**Open-source emphasis**: This section is expanded with active projects for self-hosting, custom browser infrastructure, and transparent automation frameworks — ideal for developers, AI engineers, and teams building vendor-independent browser automation stacks. Note that several commercial platforms in this category offer open-source SDKs or CLI tools (Stagehand, AdsPower CLI), while others (Multilogin, GoLogin) are proprietary with community automation scripts.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Browserbase](https://www.browserbase.com/)**  
-
-  Cloud browser infrastructure for AI agents with headless browser sessions, proxy rotation, session replay, and stealth capabilities. Offers SDKs for Node.js and Python, plus a free tier for development .
-
-
-
-- **[Browserless](https://www.browserless.io/)**  
-
-  Headless Chrome/Chromium cloud service for screenshots, PDF generation, and web scraping. Provides a production-ready API on top of Puppeteer and Playwright .
-
-
-
-- **[Stagehand](https://www.stagehand.dev/)**  
-
-  AI browser automation framework from Browserbase that provides a semantic abstraction layer over Playwright. Enables agents to interact with web elements using natural language intent rather than brittle CSS selectors, with self-healing capabilities. MIT-licensed TypeScript and Python SDKs available .
-
-
-
-- **[Steel.dev](https://steel.dev/)**  
-
-  Open-source browser API for AI agents and apps (public beta). Manages sessions, pages, and browser processes with support for Puppeteer, Playwright, and Selenium. Features anti-detection, debugging tools, and page-to-markdown/PDF conversion APIs .
-
-
-
-- **[Multilogin](https://multilogin.com/)**  
-
-  Anti-detect browser platform for managing multiple isolated browser profiles with unique fingerprints and proxies. Popular for multi-accounting and web scraping. Community automation scripts for Playwright and Selenium integration exist on GitHub .
-
-
-
-- **[AdsPower](https://www.adspower.com/)**  
-
-  Anti-detect browser with profile isolation and fingerprint management. Offers an official CLI for AI agents (`adspower-browser`) and Cursor/agent skills for programmatic profile management .
-
-
-
-- **[GoLogin](https://gologin.com/)**  
-
-  Anti-detect browser with cloud profile storage and team collaboration. Community tools for offline profile management and automation scripts exist .
-
-
-
-- **[Kameleo](https://kameleo.io/)**  
-
-  Anti-detect browser with engine-level fingerprint masking for Chromium and Firefox. Self-hosted, Docker-ready with SDKs for Python, JavaScript, and C#. Integrates with Selenium, Playwright, and Puppeteer. Free tier includes 2 concurrent browsers and 300 minutes/month .
-
-
-
-- **[Octo Browser](https://octobrowser.net/)**  
-
-  Anti-detect browser for multi-accounting and automation. Note: Multiple unrelated projects share this name on GitHub, including an AI-powered Copilot browser and a Flutter-based browser .
-
-
-
-- **[BrowserCat](https://www.browsercat.com/)**  
-
-  Cloud browser service with an MCP server for LLM integration. Enables AI agents to interact with web pages, take screenshots, and execute JavaScript without local browser installation .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Stagehand](https://github.com/browserbase/stagehand)**  
-
-  The leading open-source AI browser automation framework with 24,299+ stars under MIT license. Built by Browserbase as a semantic abstraction layer over Playwright, optimized for frontier models (Claude, GPT, Gemini). Enables agents to interact with elements using natural language intent, with self-healing paths that survive UI redesigns. Supports Shadow DOM and iFrames, TypeScript-first API with strong type safety, and optional Browserbase cloud integration for parallel session execution and proxy rotation. Python version also available .
-
-
-
-- **[Steel Browser](https://github.com/nickzahn/steel-browser)**  
-
-  Open-source browser API for AI agents and apps, Apache 2.0 licensed. A batteries-included browser sandbox managing sessions, pages, and browser processes. Uses Puppeteer and CDP for full Chrome control, allowing connection via Puppeteer, Playwright, or Selenium. Includes anti-detection, debugging tools, resource management, and page-to-markdown/PDF conversion APIs .
-
-
-
-- **[Browser Use](https://github.com/browser-use/browser-use)**  
-
-  The most starred open-source browser agent framework with 113k+ stars under MIT license. Gives AI agents a real browser to open pages, click, type, and fill forms like humans. Model-agnostic (works with any LLM), installs as a skill for Claude Code, Codex, Cursor, and OpenClaw. Python library (3.11+) with CLI and cloud options. Benchmark leader on Odysseys (87.4% average) .
-
-
-
-- **[Skyvern](https://github.com/Skyvern-AI/skyvern)**  
-
-  Open-source browser automation using computer vision and LLMs (AGPL-3.0, 23k+ stars). No DOM selectors — uses screenshots to identify and interact with elements visually. Built-in CAPTCHA solving (2captcha, Anti-Captcha), proxy rotation, workflow chaining, and structured JSON extraction. Docker or pip installation with web UI at localhost:8080. Best for sites with frequently changing DOM or visual-only UIs .
-
-
-
-- **[Nanobrowser](https://github.com/nanobrowser/nanobrowser)**  
-
-  Open-source Chrome extension for AI-powered web automation (Apache 2.0, 4.7k+ stars in 4 weeks). Runs entirely in your local browser with your own LLM API keys — no cloud dependency. Multi-agent system (Planner, Navigator, Validator) with interactive side panel. Supports OpenAI, Anthropic, Gemini, Ollama, Groq, and custom providers. Free alternative to OpenAI Operator .
-
-
-
-- **[Kameleo](https://github.com/kameleo-io/kameleo)**  
-
-  Open-source anti-detect browser with engine-level fingerprint masking for Chromium and Firefox (196 stars). Self-hosted, Docker-ready with Python, JavaScript, and C# SDKs. Integrates with Selenium, Playwright, and Puppeteer. Free tier available with commercial support options. Multi-framework, mobile profile support, and C++-level evasion .
-
-
-
-- **[Persona Studio](https://github.com/TechQaiser/persona-studio)**  
-
-  Open-source, self-hosted anti-detect browser and profile manager. Coherent fingerprints, proxies, persistent sessions, and pluggable stealth engines (CloakBrowser, Camoufox, Patchright, Playwright). React dashboard + CLI. One-click Windows launcher (`start.bat`) with Python API for automation .
-
-
-
-- **[veilbrowser](https://github.com/acunningham-ship-it/veilbrowser)**  
-
-  Python stealth browser that is Chrome — the same binary a human runs — driven over raw CDP with no framework in between. Real input through CDP Input domain (no JavaScript `element.click()` with `isTrusted: false`), coherent fingerprints via browser-level `Emulation.*` overrides, deterministic canvas/audio noise per seed, and private-network guard. Attach to existing signed-in profiles via `Browser.connect()` .
-
-
-
-- **[gox-browser](https://github.com/chinayin/gox-browser)**  
-
-  Go headless browser pool with anti-detection, smart fallback, and multi-provider support. Supports Rod (Chrome), Browserless v2 cluster, and Surf (HTTP TLS fingerprint impersonation). Features WAF detection (Cloudflare, Akamai), concurrent workers with rate limiting, metrics (P50/P95/P99 latency), and artifact storage (local/S3/OSS) .
-
-
-
-- **[Fury Anti-Detect Browser](https://github.com/furyteamtop/fury-antidetect-browser)**  
-
-  Free, open-source anti-detect browser (Chromium 153 fork) that spoofs fingerprints in C++ rather than injected JavaScript. Per-profile personas, proxies, and a self-hostable team server with per-project access. No seats, no per-profile pricing, no telemetry. Windows-only target (deliberate decision). Includes CDP timing mitigation, WebRTC proxy enforcement, and offline GeoIP via proxy .
-
-
-
-- **[mcp-tool-shop-org/brand](https://github.com/mcp-tool-shop-org/brand)**  
-
-  Centralized brand asset registry for GitHub organizations. One repo holds every logo; every README points to it via raw.githubusercontent.com URLs. Solves duplication, drift, and inconsistency across repos .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Browserless (microlinkhq)** — Headless Chrome/Chromium driver on top of Puppeteer. Take screenshots, generate PDFs, extract text and HTML with a production-ready API. MIT licensed .
-
-- **Multilogin Playwright integration** — Example project demonstrating Multilogin browser integration with Playwright for automated testing. Includes sign-in, profile start/stop, and bot detection testing .
-
-- **GoLogin Profile Manager** — Windows GUI tool for automated GoLogin profile creation with randomized fingerprints, proxy support, and headless mode. Standalone .exe or source code .
-
-- **AdsPower Profile Automation Bot** — Python script for automating AdsPower profile creation, configuration, and management. Handles proxy parsing, batch processing, and CSV logging. PyAutoGUI-based GUI automation .
-
-- **Ghost Proxy (GoLogin)** — Python script for automating proxy management and web interactions in GoLogin with voice command control .
-
-
-
-**Frameworks for building custom browser automation solutions**: Combine **Stagehand** for AI-native element discovery with **Browserbase** or **Steel** for cloud browser scaling . Use **Browser Use** for autonomous agent tasks with any LLM, or **Skyvern** for vision-based automation on visual-only UIs . For self-hosted anti-detect with SDK integration, **Kameleo** or **Persona Studio** provide profile management and stealth engines . For lightweight Go-based browser pooling, **gox-browser** offers multi-provider fallback with WAF detection . Note that commercial anti-detect browsers (Multilogin, GoLogin, AdsPower) are closed-source with community automation scripts; open-source alternatives (Kameleo, Persona Studio, Fury) provide self-hosted fingerprint management without vendor dependency.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Browser automation tools must comply with applicable laws, website terms of service, and anti-scraping regulations. Anti-detect browsers are intended for legitimate multi-account management, privacy, and testing — not for fraud or abuse.
-
-- Self-hosted open-source solutions require proper infrastructure, proxy management, and ongoing maintenance. Fingerprint spoofing must be coherent to avoid detection — half-spoofed identities are worse than none .
-
-- The open-source ecosystem provides strong AI automation frameworks and stealth browser implementations, but enterprise-grade cloud browser infrastructure with global proxy networks and session replay remains primarily a commercial offering.
-
-
+# Awesome Browser Automation Platform Ecosystem 🌐
+
+![Awesome Browser Automation Platform Header Banner](./assets/banner.svg)
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Browser-Automation-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Browser-Automation-Platform?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Browser-Automation-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Browser-Automation-Platform?style=flat-square" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Browser-Automation-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> **A curated, high-impact directory of SaaS products and open-source projects for Browser Automation, Cloud Browser Infrastructure, AI Agent Execution, Web Scraping, and Anti-Detection Stealth.**
 
 ---
 
+## 💡 Overview & Executive Summary
 
+Modern AI agents and software systems require scalable, resilient, and anti-detect browser infrastructure to perform web tasks programmatically—such as autonomous scraping, automated form filling, session management, and UI testing.
 
-**Made for developers, AI engineers, QA teams, and automation professionals.**  
+### 📊 Market Size & Sector Fragmentation
+- **Market Size:** The global browser automation, web scraping, and anti-detect infrastructure market is estimated at **~$3.8 Billion USD in 2026** and projected to exceed **$9.2 Billion USD by 2032** (CAGR ~15.8%), heavily accelerated by the rapid surge in LLM web-browsing agents and autonomous AI workflows.
+- **Market Dynamics:** The sector is **moderately fragmented**, experiencing a dynamic split between developer-centric cloud browser APIs (e.g., Browserbase, Steel.dev) and specialized stealth anti-detect profile managers (e.g., Multilogin, GoLogin, AdsPower). While network effects and cloud scale favor emerging market leaders, open-source frameworks continue to maintain strong developer adoption for self-hosted execution.
 
-Let's make browser automation more open, transparent, and capable.
+---
+
+## 📌 Table of Contents
+
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Repositories](#-open-source-github-repositories)
+- [🛠️ Architecture & Integration Patterns](#️-architecture--integration-patterns)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## ☁️ SaaS & Hosted Platforms
+
+The table below lists top commercial SaaS platforms providing cloud browser infrastructure, API endpoints, or stealth anti-detect browser profile managers.
+
+> **Sorted by Financial Scale / Valuation (Descending)**
+
+| Platform 🚀 | Scale / Revenue / Valuation 💰 | Starting Price 💵 | Free Tier / Trial Limit 🎁 | Description & Core Focus 🔍 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Browserbase](https://www.browserbase.com/)** | **$300M Valuation** (Series B, 2025; >$3M ARR) | $20/month (Developer Tier) | Free Forever: 1 browser hr/mo, 3 concurrent sessions, 3 agent runs/mo | Cloud browser infrastructure designed for AI agents with headless sessions, proxy rotation, session replay, and stealth. |
+| **[Steel.dev](https://steel.dev/)** | **~$17M Raised** (~$3.5M ARR) | $250/month (Scale Plan) | Launch Plan: Free to start with $30 one-time usage credits | Open-source browser API for AI agents and apps. Manages browser sessions, anti-detection, and page-to-markdown/PDF conversion. |
+| **[Multilogin](https://multilogin.com/)** | **€8.2M Revenue** (~$9.0M ARR, 2022 filing) | $7.08/month (Billed annually) | Free Forever: Up to 5 browser/cloud phone profiles, 200 MB proxy data | Anti-detect browser platform for managing isolated profiles with unique fingerprints and residential proxies. |
+| **[GoLogin](https://gologin.com/)** | **~$2.7M ARR** (Est. 27+ team members) | $9.00/month (Billed annually) | Free Forever: 3 profile limit + 7-day full feature trial | Anti-detect browser with cloud profile synchronization, team collaboration, and automated proxy management. |
+| **[AdsPower](https://www.adspower.com/)** | **~$1.7M ARR** (Est. 15+ team members) | $5.40/month (Billed annually) | Free Forever: 2 profile limit + 7-day free trial for paid features | Anti-detect browser featuring profile isolation, multi-account management, and official CLI (`adspower-browser`) for AI agents. |
+| **[Browserless](https://www.browserless.io/)** | **~$1.3M ARR** (Bootstrapped enterprise) | $25.00/month (Prototyping Plan) | Free Forever: 1,000 execution units/month | Headless Chrome/Chromium cloud service for automated screenshot generation, PDF creation, and high-concurrency scraping. |
+| **[Kameleo](https://kameleo.io/)** | **Private / VC Bootstrapped** | €29.00/month (~$32/mo Base Plan) | No free trial available (Paid plans only) | Anti-detect browser providing engine-level fingerprint masking for Chromium and Firefox, Docker-ready with multi-language SDKs. |
+| **[Octo Browser](https://octobrowser.net/)** | **Private / Undisclosed** | €21.00/month (~$23/mo Starter Tier) | No free trial; no standing free plan | Anti-detect browser engineered for multi-accounting, fingerprint management, and automated web interaction. |
+| **[BrowserCat](https://www.browsercat.com/)** | **Private / Developer Infrastructure** | $50.00/month (Business Plan) | Free Forever (Hobby Plan): 1,000 credits/month | Cloud browser API equipped with an MCP (Model Context Protocol) server for seamless LLM and AI agent integration. |
+
+---
+
+## 🔓 Open-Source GitHub Repositories
+
+Top open-source projects for self-hosting browser infrastructure, anti-detect automation, and AI agent web navigation frameworks.
+
+> **Sorted by GitHub Stars (Descending)**
+
+| Repository 📦 | GitHub Stars ⭐ | Primary License 📜 | Description & Technical Highlights 💡 |
+| :--- | :--- | :--- | :--- |
+| **[Browser Use](https://github.com/browser-use/browser-use)** | [<img src="https://img.shields.io/github/stars/browser-use/browser-use?style=social&color=white" alt="Browser Use Stars"/>](https://github.com/browser-use/browser-use/stargazers) | MIT | Autonomous AI agent web automation framework. Controls real browsers via LLMs, with CLI, Cursor, and Python integration. |
+| **[Puppeteer](https://github.com/puppeteer/puppeteer)** | [<img src="https://img.shields.io/github/stars/puppeteer/puppeteer?style=social&color=white" alt="Puppeteer Stars"/>](https://github.com/puppeteer/puppeteer/stargazers) | Apache-2.0 | Node.js library providing a high-level API over the Chrome DevTools Protocol (CDP) for headless browser control. |
+| **[Playwright](https://github.com/microsoft/playwright)** | [<img src="https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white" alt="Playwright Stars"/>](https://github.com/microsoft/playwright/stargazers) | Apache-2.0 | Node.js/Python/Java/C# library for reliable end-to-end testing and browser automation across Chromium, Firefox, and WebKit. |
+| **[Crawlee](https://github.com/apify/crawlee)** | [<img src="https://img.shields.io/github/stars/apify/crawlee?style=social&color=white" alt="Crawlee Stars"/>](https://github.com/apify/crawlee/stargazers) | Apache-2.0 | Scalable web crawling and scraping library for Node.js with built-in proxy management, headless browser control, and storage. |
+| **[Stagehand](https://github.com/browserbase/stagehand)** | [<img src="https://github.com/browserbase/stagehand?style=social&color=white" alt="Stagehand Stars"/>](https://github.com/browserbase/stagehand/stargazers) | MIT | AI-native browser automation framework built on Playwright. Uses natural language intent and self-healing selectors for LLMs. |
+| **[Skyvern](https://github.com/Skyvern-AI/skyvern)** | [<img src="https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=social&color=white" alt="Skyvern Stars"/>](https://github.com/Skyvern-AI/skyvern/stargazers) | AGPL-3.0 | Vision-based browser automation driven by computer vision and LLMs to navigate complex UIs without DOM selectors. |
+| **[Nanobrowser](https://github.com/nanobrowser/nanobrowser)** | [<img src="https://img.shields.io/github/stars/nanobrowser/nanobrowser?style=social&color=white" alt="Nanobrowser Stars"/>](https://github.com/nanobrowser/nanobrowser/stargazers) | Apache-2.0 | Open-source Chrome extension enabling multi-agent local web automation with private LLM keys. |
+| **[Steel Browser](https://github.com/nickzahn/steel-browser)** | [<img src="https://img.shields.io/github/stars/nickzahn/steel-browser?style=social&color=white" alt="Steel Browser Stars"/>](https://github.com/nickzahn/steel-browser/stargazers) | Apache-2.0 | Open-source browser sandbox API for AI agents. Features session isolation, CDP control, anti-detection, and markdown rendering. |
+| **[Browserless (Driver)](https://github.com/browserless/chrome)** | [<img src="https://img.shields.io/github/stars/browserless/chrome?style=social&color=white" alt="Browserless Stars"/>](https://github.com/browserless/chrome/stargazers) | SSPL-1.0 | Open-source headless Chrome driver image designed for scalable Docker deployment and REST/WebSocket automation APIs. |
+| **[Persona Studio](https://github.com/TechQaiser/persona-studio)** | [<img src="https://img.shields.io/github/stars/TechQaiser/persona-studio?style=social&color=white" alt="Persona Studio Stars"/>](https://github.com/TechQaiser/persona-studio/stargazers) | MIT | Self-hosted anti-detect browser and profile manager with coherent fingerprints, proxy binding, and React dashboard. |
+| **[veilbrowser](https://github.com/acunningham-ship-it/veilbrowser)** | [<img src="https://img.shields.io/github/stars/acunningham-ship-it/veilbrowser?style=social&color=white" alt="veilbrowser Stars"/>](https://github.com/acunningham-ship-it/veilbrowser/stargazers) | MIT | Stealth Python browser driving unmodified Chrome binaries over raw CDP with hardware fingerprint noise injection. |
+| **[gox-browser](https://github.com/chinayin/gox-browser)** | [<img src="https://img.shields.io/github/stars/chinayin/gox-browser?style=social&color=white" alt="gox-browser Stars"/>](https://github.com/chinayin/gox-browser/stargazers) | MIT | High-performance Go headless browser pool featuring WAF evasion (Cloudflare/Akamai), rate limiting, and Rod/Surf drivers. |
+| **[Kameleo SDK](https://github.com/kameleo-io/kameleo)** | [<img src="https://img.shields.io/github/stars/kameleo-io/kameleo?style=social&color=white" alt="Kameleo SDK Stars"/>](https://github.com/kameleo-io/kameleo/stargazers) | MIT | Open-source client SDK for connecting Playwright, Puppeteer, and Selenium to Kameleo anti-detect browser profiles. |
+| **[Fury Anti-Detect](https://github.com/furyteamtop/fury-antidetect-browser)** | [<img src="https://img.shields.io/github/stars/furyteamtop/fury-antidetect-browser?style=social&color=white" alt="Fury Anti-Detect Stars"/>](https://github.com/furyteamtop/fury-antidetect-browser/stargazers) | GPL-3.0 | Free anti-detect Chromium fork implementing C++ level fingerprint masking, WebRTC protection, and offline GeoIP. |
+| **[mcp-tool-shop-org/brand](https://github.com/mcp-tool-shop-org/brand)** | [<img src="https://img.shields.io/github/stars/mcp-tool-shop-org/brand?style=social&color=white" alt="Brand Registry Stars"/>](https://github.com/mcp-tool-shop-org/brand/stargazers) | MIT | Centralized repository for organization brand assets, logos, and ecosystem badges. |
+
+---
+
+## 🛠️ Architecture & Integration Patterns
+
+When implementing browser automation for enterprise applications or autonomous AI agents, choose the framework combination that fits your operational scale:
+
+1. **AI-Native Intent Automation:** Pair **Stagehand** or **Browser Use** with **Browserbase** or **Steel.dev** for cloud session management with semantic element targeting.
+2. **Vision-Driven Web Operations:** Utilize **Skyvern** for legacy websites, visual canvas elements, or complex UIs lacking reliable DOM selectors.
+3. **Self-Hosted Anti-Detect Infrastructure:** Deploy **Persona Studio**, **gox-browser**, or **Fury** for self-managed browser profile isolation and proxy rotation.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions to expand or update this ecosystem directory are always welcome!
+
+1. 🍴 **Fork** the repository.
+2. 📝 **Edit `README.md`** following the existing Markdown format and table structures.
+3. 🔎 Ensure all added entries specify: project name, official URL / repository, pricing or license details, and factual descriptions.
+4. 🚀 **Submit a Pull Request** with a brief summary of your updates.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and using this repository! If this curated platform directory has helped your projects, workflow, or AI agent development, please consider showing your support:
+
+- ⭐ **Star** this repository on GitHub to help increase its visibility!
+- 🍴 **Fork** and share it with fellow developers, engineers, and researchers.
+- ☕ **Sponsor & Buy Me a Coffee:** Support ongoing maintenance, research, and open-source updates via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Browser-Automation-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Browser-Automation-Platform&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for informational and research purposes.
+- All browser automation tools must be operated in full compliance with applicable local laws, target site Terms of Service, and ethical web crawling practices.
+- Anti-detect platforms are intended for multi-account testing, privacy verification, and browser fingerprint research.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for AI Engineers, Automation Developers, QA Specialists, and Web Researchers.</b>
+</p>
