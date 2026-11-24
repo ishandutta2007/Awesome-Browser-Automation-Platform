@@ -54,6 +54,7 @@ The table below lists top commercial SaaS platforms providing cloud browser infr
 | **[Kameleo](https://kameleo.io/)** | **Private / VC Bootstrapped** | €29.00/month (~$32/mo Base Plan) | No free trial available (Paid plans only) | Anti-detect browser providing engine-level fingerprint masking for Chromium and Firefox, Docker-ready with multi-language SDKs. |
 | **[Octo Browser](https://octobrowser.net/)** | **Private / Undisclosed** | €21.00/month (~$23/mo Starter Tier) | No free trial; no standing free plan | Anti-detect browser engineered for multi-accounting, fingerprint management, and automated web interaction. |
 | **[BrowserCat](https://www.browsercat.com/)** | **Private / Developer Infrastructure** | $50.00/month (Business Plan) | Free Forever (Hobby Plan): 1,000 credits/month | Cloud browser API equipped with an MCP (Model Context Protocol) server for seamless LLM and AI agent integration. |
+| **[Cloudbrowser](https://cloudbrowser.tv/)** | Not publicly disclosed | $20/month (Basic) | Free: 1 browser-hour per UTC calendar month, one running browser after email verification | Persistent hosted desktop Chrome for AI agents, with CDP access, permission-controlled Live View, and browser lifecycle management via REST API and Go CLI. |
 
 ---
 
